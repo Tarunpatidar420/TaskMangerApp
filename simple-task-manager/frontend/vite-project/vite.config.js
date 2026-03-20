@@ -6,8 +6,9 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "https://task-manger-app-backend-4g1g.onrender.com",
         changeOrigin: true,
+        secure: true,
       },
     },
   },
