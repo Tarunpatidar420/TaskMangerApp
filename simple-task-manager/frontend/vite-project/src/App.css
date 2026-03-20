@@ -92,8 +92,8 @@ button:hover {
 }
 
 .task-card.completed {
-  border-left: 6px solid #16a34a;
-  background: #f0fdf4;
+  border-left: 6px solid #ec4899;  
+  background: #fdf2f8;           
 }
 
 .task-card h3 {
@@ -111,4 +111,13 @@ button:hover {
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 12px;
+}
+.status-completed {
+  color: #16a34a;   
+  font-weight: 600;
+}
+
+.status-pending {
+  color: #dc2626;   
+  font-weight: 600;
 }
